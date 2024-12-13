@@ -1,17 +1,20 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
     // Variáveis globais
     static Scanner scanner = new Scanner(System.in);
+    static Random random = new Random();
     static int limite;
-    // static int numeroSorteado;
+    static int numeroSorteado;
 
     public static void main(String[] args) {
         exibirMenu();
         if (limite == -1) {
             System.out.println("ERRO: ESSE NIVEL NÃO EXISTE - REINICIE O JOGO E ESCOLHA UM NIVEL EXISTENTE.");
         }
+        sortearNumero();
     }
 
     public static void exibirMenu() {
@@ -34,5 +37,10 @@ public class Main {
             return 100;
         }
         return -1; // Nível inválido
+    }
+    public static void sortearNumero() {
+        numeroSorteado = random.nextInt(limite) + 1;
+        System.out.println("O número foi sorteado! Tente adivinhar.");
+        System.out.println("Digite '-1' a qualquer momento para encerrar o jogo.");
     }
 }
