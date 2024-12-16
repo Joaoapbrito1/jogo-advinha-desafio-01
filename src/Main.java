@@ -59,7 +59,9 @@ public class Main {
 
     public static void exibirMenu() {
         System.out.println("=========================== JOGO DO ADVINHA ===============================");
-        System.out.println("Níveis de dificuldade do jogo:");
+        System.out.println("A cada numero acertado o jogador ganha 10 pontos e cada acerto proximo o jogador ganha 5 pontos,");
+        System.out.println("acerto proximo (um numero antes ou depois do numero correto).");
+        System.out.println("==================== Níveis de dificuldade do jogo ========================");
         System.out.println("1 - Nivel Fácil (Nesse nivel você tem que acertar um numero entre 1 e 10)");
         System.out.println("2 - Nivel Médio (Nesse nivel você tem que acertar um numero entre 1 e 50)");
         System.out.println("3 - Nivel Dificil (Nesse nivel você tem que acertar um numero entre 1 e 100)");
