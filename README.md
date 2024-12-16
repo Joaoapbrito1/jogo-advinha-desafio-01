@@ -37,7 +37,7 @@ O código é dividido nas seguintes partes principais:
 - limite: Define o limite superior do intervalo com base no nível de dificuldade.
 - numeroSorteado: Armazena o número sorteado na rodada.
 
-### 2. *Funções*
+### 2. *Métodos*
 - *resetarDados*: Limpa os dados da rodada atual.
 - *exibirMenu*: Exibe o menu de escolha de nível de dificuldade.
 - *definirLimite*: Define o limite superior do intervalo com base no nível escolhido.
