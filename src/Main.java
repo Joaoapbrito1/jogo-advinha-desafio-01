@@ -65,7 +65,7 @@ public class Main {
         System.out.println("1 - Nivel Fácil (Nesse nivel você tem que acertar um numero entre 1 e 10)");
         System.out.println("2 - Nivel Médio (Nesse nivel você tem que acertar um numero entre 1 e 50)");
         System.out.println("3 - Nivel Dificil (Nesse nivel você tem que acertar um numero entre 1 e 100)");
-        System.out.println("Digite o número correspondente ao nível desejado ou '-1' para encerrar o jogo a qualquer momento:");
+        System.out.println("Digite o número correspondente ao nível desejado ou qualquer outro numero para encerrar o jogo:");
         int nivel = scanner.nextInt();
 
         // Finaliza o jogo se a entrada for -1
